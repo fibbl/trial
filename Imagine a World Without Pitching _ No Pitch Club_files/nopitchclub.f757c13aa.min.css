@@ -2099,8 +2099,8 @@ h2 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-family: 'Bw Gradual', sans-serif;
-	font-size: 3.53em;
-	line-height: 1.2em;
+	font-size: 5em;
+	line-height: 1em;
 	font-weight: 500;
 	letter-spacing: -.033em
 }
@@ -2295,7 +2295,7 @@ a:hover {
 }
 
 .section.hero {
-	min-height: 100vh
+	min-height: 110vh
 }
 
 .section.say-no {
@@ -2440,7 +2440,7 @@ a:hover {
 .section.getassets {
 	display: -ms-grid;
 	display: grid;
-	padding: 8em 23.1em;
+	padding-top: 15%;
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	-ms-flex-align: center;
@@ -2616,7 +2616,7 @@ a:hover {
 	width: 100%;
 	max-width: 50em;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 8%;
 	padding-top: 7vh;
 	grid-auto-columns: 1fr;
 	grid-column-gap: 0px;
@@ -2698,7 +2698,7 @@ a:hover {
 	display: -ms-flexbox;
 	display: flex;
 	
-	height: 45em;
+	height: 58em;
 	margin-left: -17em;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -3468,6 +3468,7 @@ a:hover {
 
 .div-block-10 {
 	position: relative;
+	padding-left: 10%;
 	display: -ms-grid;
 	display: grid;
 	justify-items: start;
@@ -3523,7 +3524,7 @@ a:hover {
 .i-getassets-cover {
 	position: relative;
 	z-index: 2;
-	width: 100%;
+	width: 650px;
 	height: auto;
 	max-width: none;
 	box-shadow: 1px 1px 3px 0 #000;
@@ -3553,7 +3554,7 @@ a:hover {
 	bottom: 0;
 	z-index: 1;
 	width: 24.3em;
-	background-color: #fff
+	
 }
 
 .block-quote {
@@ -4143,7 +4144,7 @@ a:hover {
 }
 
 .button-get-assets {
-	max-width: 14rem;
+	max-width: 16rem;
 	text-align: center
 }
 
