@@ -2320,11 +2320,11 @@ a:hover {
 	max-width: 62em;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 16em;
-	padding-bottom: 16em;
+	
+	padding-bottom: 0em;
 	grid-auto-columns: 1fr;
 	grid-column-gap: 0em;
-	grid-row-gap: 20em;
+	grid-row-gap: 10em;
 	-ms-grid-columns: 1fr;
 	grid-template-columns: 1fr;
 	-ms-grid-rows: auto auto;
@@ -2613,7 +2613,7 @@ a:hover {
 .wrap-text-hero {
 	display: -ms-grid;
 	display: grid;
-	width: 100%;
+	width:50%;
 	max-width: 50em;
 	margin-right: auto;
 	margin-left: 8%;
@@ -2713,7 +2713,7 @@ a:hover {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border-radius: 5%;
+	
 	background-image: url("texture.jpeg");
 	background-position: 50% 50%;
 	background-size: cover;
@@ -2731,7 +2731,7 @@ a:hover {
 }
 
 .image {
-	height: 17em;
+	height: 6.5em;
 	max-width: none
 }
 
@@ -2771,7 +2771,7 @@ a:hover {
 
 .special1 {
 	font-family: 'Bw Gradual', sans-serif;
-	color: transparent;
+	
 	font-size: 20.83em;
 	line-height: 1.1em;
 	font-weight: 500;
@@ -3450,7 +3450,7 @@ a:hover {
 }
 
 .button-get-assets {
-	width: 100%;
+	
 	height: 100%;
 	border-radius: 4em;
 	background-color: #6d59fa;
@@ -3468,7 +3468,7 @@ a:hover {
 
 .div-block-10 {
 	position: relative;
-	padding-left: 10%;
+	padding-left: 18%;
 	display: -ms-grid;
 	display: grid;
 	justify-items: start;
@@ -4144,7 +4144,7 @@ a:hover {
 }
 
 .button-get-assets {
-	max-width: 16rem;
+	
 	text-align: center
 }
 
