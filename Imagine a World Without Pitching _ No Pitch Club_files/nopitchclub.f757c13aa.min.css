@@ -4476,7 +4476,9 @@ a:hover {
 		font-size: 1.3em
 	}
 	.i-getassets-cover {
-		box-shadow: none
+		box-shadow: none;
+		max-width: 100%;
+		
 	}
 	.marquee-together-cab {
 		min-width: auto
