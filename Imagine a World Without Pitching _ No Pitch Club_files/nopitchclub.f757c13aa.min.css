@@ -4340,6 +4340,22 @@ a:hover {
 		height: 65em;
 		margin-left: -5em
 	}
+
+	.div-block-10 {
+		position: relative;
+		padding-left: 0%;
+		display: -ms-grid;
+		display: grid;
+		justify-items: start;
+		grid-auto-columns: 1fr;
+		grid-column-gap: 0em;
+		grid-row-gap: 1em;
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		-ms-grid-rows: auto auto;
+		grid-template-rows: auto auto;
+	}
+	
 	.body-2 {
 		font-size: 2vw
 	}
