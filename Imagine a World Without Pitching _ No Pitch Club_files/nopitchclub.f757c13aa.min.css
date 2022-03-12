@@ -930,7 +930,7 @@ textarea.w-select {
 	}
 	input {
 		line-height: normal;
-		font-size: 0.6em;
+		font-size: 0.55em;
 	}
 	.w-container {
 		max-width: none
@@ -4492,7 +4492,7 @@ a:hover {
 		font-size: 1.25em
 	}
 	.inputbutton{
-		padding-left: 8%;
+		padding-left: 5%;
 		padding-right: 8%;
 
 	}
@@ -4500,7 +4500,7 @@ a:hover {
 
 @media screen and (max-width:767px) {
 	.inputbutton{
-		padding-left: 8%;
+		padding-left: 5%;
 		padding-right: 8%;
 
 	}
