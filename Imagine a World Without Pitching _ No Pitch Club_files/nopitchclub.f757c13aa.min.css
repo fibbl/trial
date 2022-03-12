@@ -4493,6 +4493,7 @@ a:hover {
 	}
 	.inputbutton{
 		padding-left: 8%;
+		padding-right: 8%;
 
 	}
 }
@@ -4500,6 +4501,7 @@ a:hover {
 @media screen and (max-width:767px) {
 	.inputbutton{
 		padding-left: 8%;
+		padding-right: 8%;
 
 	}
 
