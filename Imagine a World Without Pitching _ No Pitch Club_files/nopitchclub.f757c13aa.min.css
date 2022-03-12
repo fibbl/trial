@@ -4491,9 +4491,18 @@ a:hover {
 		max-width: 39ch;
 		font-size: 1.25em
 	}
+	.inputbutton{
+		padding-left: 8%;
+
+	}
 }
 
 @media screen and (max-width:767px) {
+	.inputbutton{
+		padding-left: 8%;
+
+	}
+
 	.p {
 		font-size: 1.8em
 	}
