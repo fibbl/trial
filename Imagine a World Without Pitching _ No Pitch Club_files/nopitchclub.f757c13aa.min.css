@@ -4306,6 +4306,7 @@ a:hover {
 		padding-left: 3em
 	}
 	.section.lifepitch {
+		height: 120vh;
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
