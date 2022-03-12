@@ -143,6 +143,10 @@ textarea {
 	font: inherit;
 	margin: 0
 }
+nput {
+    line-height: normal;
+    font-size: 0.8em;
+}
 
 button {
 	overflow: visible
@@ -919,6 +923,15 @@ textarea.w-select {
 }
 
 @media screen and (max-width:479px) {
+	.section.hero {
+		min-height: 100em;
+		padding-bottom: 30%;
+
+	}
+	input {
+		line-height: normal;
+		font-size: 0.6em;
+	}
 	.w-container {
 		max-width: none
 	}
@@ -2310,7 +2323,7 @@ a:hover {
 }
 
 .section.hero {
-	min-height: 110vh
+	min-height: 60em
 }
 
 .section.say-no {
@@ -4345,6 +4358,7 @@ a:hover {
 	}
 	.wrap-text-hero {
 		padding-top: 10em;
+		margin-left: 0%;
 	}
 	.wrap-badge {
 		right: 6%;
@@ -4485,7 +4499,9 @@ a:hover {
 	}
 	.p.hero-subh {
 		max-width: 15em;
-		font-size: 2em
+		font-size: 2em;
+		padding-left: 8%;
+		padding-right: 5%;
 	}
 	.t {
 		font-size: 1.6em
@@ -4496,12 +4512,11 @@ a:hover {
 		padding-left: 5em
 	}
 	.h1-hero {
-		font-size: 6em
+		font-size: 5em
 	}
 	.wrap-text-hero {
 		
-		padding-right: 2em;
-		padding-left: 2em
+		
 	}
 	.form {
 		font-size: 1.3em
@@ -4524,6 +4539,12 @@ a:hover {
 }
 
 @media screen and (max-width:479px) {
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: 700;
+		font-size: 0.4em;
+	}
 	.t {
 		font-size: 1.8em
 	}
@@ -4535,10 +4556,13 @@ a:hover {
 		padding-bottom: 16em
 	}
 	.h1-hero {
-		font-size: 5.2em
+		font-size: 5.2em;
+		padding-left: 8%;
+		padding-right: 5%;
+		
 	}
 	.wrap-hero-down-arrow {
-		margin-top: -12.8em
+		
 	}
 	.wrap-badge {
 		right: 16%;
@@ -4758,7 +4782,7 @@ a:hover {
 	#w-node-_0b7a7f68-532a-94c1-8b67-0ba1e6065105-a62428f5,
 	#w-node-_36a97a75-999b-c1ab-fe01-bd7d5e6f43f0-a62428f5 {
 		-ms-grid-column-align: center;
-		justify-self: center
+		
 	}
 }
 
