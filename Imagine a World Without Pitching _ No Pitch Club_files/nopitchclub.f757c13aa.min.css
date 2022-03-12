@@ -4494,6 +4494,7 @@ a:hover {
 	.inputbutton{
 		padding-left: 8%;
 		padding-right: 8%;
+		text-align: center;
 
 	}
 }
@@ -4502,6 +4503,7 @@ a:hover {
 	.inputbutton{
 		padding-left: 8%;
 		padding-right: 8%;
+		text-align: center;
 
 	}
 
@@ -4534,7 +4536,7 @@ a:hover {
 	}
 	.i-getassets-cover {
 		box-shadow: none;
-		max-width: 100%;
+		max-width: 120%;
 		
 	}
 	.marquee-together-cab {
