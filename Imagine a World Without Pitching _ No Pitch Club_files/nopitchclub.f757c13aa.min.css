@@ -925,7 +925,7 @@ textarea.w-select {
 @media screen and (max-width:479px) {
 	.section.hero {
 		min-height: 100em;
-		padding-bottom: 30%;
+		padding-bottom: 50%;
 
 	}
 	input {
