@@ -4492,7 +4492,7 @@ a:hover {
 		font-size: 1.25em
 	}
 	.inputbutton{
-		padding-left: 5%;
+		padding-left: 8%;
 		padding-right: 8%;
 
 	}
@@ -4500,7 +4500,7 @@ a:hover {
 
 @media screen and (max-width:767px) {
 	.inputbutton{
-		padding-left: 5%;
+		padding-left: 8%;
 		padding-right: 8%;
 
 	}
