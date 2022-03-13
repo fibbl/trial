@@ -3207,7 +3207,7 @@ a:hover {
 	grid-template-columns: 1fr;
 	-ms-grid-rows: auto auto;
 	grid-template-rows: auto auto;
-	background-image: url("https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf5011b242916_join-cta-squircle-rect.svg");
+	
 	background-position: 50% 50%;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -3240,7 +3240,7 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	background-image: url("https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf52561242914_0-bg-join-cta.jpg");
+	background-image: url("texture_blue.png");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat
