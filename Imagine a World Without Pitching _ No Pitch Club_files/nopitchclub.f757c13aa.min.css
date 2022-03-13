@@ -4329,7 +4329,7 @@ a:hover {
 		padding-left: 3em
 	}
 	.section.getassets {
-		padding-top: 4em;
+		padding-top: 40%;
 		padding-right: 11.7em;
 		padding-left: 11.7em;
 		-ms-grid-columns: 1fr;
@@ -4367,7 +4367,7 @@ a:hover {
 	}
 	.bg-say-no {
 		
-		height: 65em;
+		height: 95em;
 		margin-left: -5em
 	}
 
