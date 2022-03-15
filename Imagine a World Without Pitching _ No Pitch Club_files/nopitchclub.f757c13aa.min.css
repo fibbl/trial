@@ -2535,7 +2535,7 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 5em;
-	padding-left: 5em;
+	padding-left: 8%;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
