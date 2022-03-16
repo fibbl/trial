@@ -2656,6 +2656,16 @@ a:hover {
 	font-size: 1.2em;
 	
 }
+.cardimg{
+	float: left;
+	width: 42%;
+	
+}
+
+.debitcard{
+	width: 90%;
+	padding-left: 8%;
+}
 
 .wrap-hero-down-arrow {
 	position: absolute;
@@ -4503,6 +4513,10 @@ a:hover {
 		text-align: center;
 
 	}
+	.cardimg{
+		float: inherit;
+		width: 100%;
+	}
 }
 
 @media screen and (max-width:767px) {
@@ -4554,6 +4568,10 @@ a:hover {
 	}
 	.text-block-3 {
 		font-size: 1.6em
+	}
+	.cardimg{
+		float: inherit;
+		width: 100%;
 	}
 }
 
@@ -4663,6 +4681,10 @@ a:hover {
 	}
 	.h2-join-cta-text {
 		font-size: 1.8em
+	}
+	.cardimg{
+		float: inherit;
+		width: 100%;
 	}
 }
 
