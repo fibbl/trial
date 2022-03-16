@@ -3240,7 +3240,7 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	background-image: url("texture_blue.png");
+	background-image: url("texture_bottom.webp");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat
