@@ -364,6 +364,46 @@ html[data-w-dynpage] [data-w-cloak] {
 	word-wrap: normal
 }
 
+.footer-list {
+	padding-top: 29px;
+	padding-bottom: 29px;
+}
+
+.footer-link-3 {
+	margin-right: 20px;
+	margin-left: 0px;
+	padding-left: 5px;
+	color: #f0f0f0;
+	font-size: 18px;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.footer-link-3:hover {
+	color: #fff;
+}
+
+.footer-link-3-copy {
+	margin-right: 20px;
+	margin-left: 0px;
+	float: right;
+	color: #6b6b6b;
+	font-size: 18px;
+	text-align: justify;
+	text-decoration: none;
+}
+
+.footer-link-3-copy:hover {
+	color: #fff;
+}
+
+.footer-link-wrapper-copy {
+	border: 3px solid #49647b;
+	border-radius: 8px;
+	color: #f0f0f0;
+	text-align: center;
+}
+
 .w-webflow-badge {
 	position: fixed!important;
 	display: inline-block!important;
@@ -1829,6 +1869,12 @@ textarea.w-select {
 	margin-left: auto
 }
 
+.image-25 {
+	float: none;
+	clear: none;
+	text-align: center;
+	width: 30%;
+}
 .w-richtext figure.w-richtext-align-fullwidth>div {
 	display: inline-block;
 	padding-bottom: inherit
