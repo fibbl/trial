@@ -243,27 +243,27 @@
             <div class="wrap-3-slide">
                <h2 id="w-node-aa63c612-8df2-c7f9-bc72-70e9742b060e-a62428f5" class="h2-3slide">Get more out of your money!</h2>
                <div class="wrap-slide-clip">
-                  <div class="wrap-slide-rail" >
+                  <div class="wrap-slide-rail" onscroll="myFunction()" id="myDIV">
                      <div class="wrap-slide2" >
                         <div class="wrap-slide-text">
                            <h3>Organize your money!</h3>
                            <div class="t">Always be aware of how much you spent every month. Sit back and relax, while we count your spends and reward you.</div>
                         </div>
-                        <div id="w-node-aa8b2b13-73b0-75ea-2182-dce99d5053f3-a62428f5" class="wrap-slides-i"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf596f3242934_slide-1-cash-3palm.svg" loading="lazy" alt="" class="i-slide"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf5aa0d24292f_slide-1-cash-1fore.svg" loading="lazy" alt="hand with money" class="i-slides-1"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf53bce24292e_slide-1-cash-2money.svg" loading="lazy"  data-w-id="d778aaad-008a-302b-3ebf-ce4fe2771ae6" alt="" class="i-slides-1 middle"></div>
+                        <div id="w-node-aa8b2b13-73b0-75ea-2182-dce99d5053f3-a62428f5" class="wrap-slides-i"><img src="2.png" loading="lazy" alt="" class="i-slide"></div>
                      </div>
                      <div class="wrap-slide2" >
                         <div class="wrap-slide-text">
                            <h3>Get financially connected</h3>
                            <div class="t">Pool in money togetherin your fibbl account and simplify shared spendings</div>
                         </div>
-                        <div id="w-node-_6b5d39b8-f079-cd2d-797c-f8af925a9d3f-a62428f5" class="wrap-slides-i"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf5cbf0242931_slide-2-bulb-3bulb.svg" loading="lazy" alt="lightbulb" class="i-slide"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf5bc04242933_slide-2-bulb-1fore.svg" loading="lazy" alt="" class="i-slides-1"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf5d743242935_slide-2-bulb-2hand.svg" loading="lazy"  data-w-id="6b5d39b8-f079-cd2d-797c-f8af925a9d42" alt="hand grab" class="i-slides-1 middle"></div>
+                        <div id="w-node-_6b5d39b8-f079-cd2d-797c-f8af925a9d3f-a62428f5" class="wrap-slides-i"><img src="6.png" loading="lazy" alt="lightbulb" class="i-slide"></div>
                      </div>
                      <div class="wrap-slide2" >
                         <div class="wrap-slide-text">
                            <h3>Complete spend analysis!</h3>
                            <div class="t">Get ready for some jaw dropping facts on your spendings and get total financial control.</div>
                         </div>
-                        <div id="w-node-_5b8c5e96-cb4f-c30b-1e34-97c51d7879c5-a62428f5" class="wrap-slides-i"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf54d4f242932_slide-3-maze-2maze.svg" loading="lazy" alt="" class="i-slide"><img src="https://assets.website-files.com/60e827d1c5dbf577fd2428f4/60e827d1c5dbf54f14242930_slide-3-maze-1pencil.svg" loading="lazy"  data-w-id="5b8c5e96-cb4f-c30b-1e34-97c51d7879c8" alt="hand drawing" class="i-slides-1 middle"></div>
+                        <div id="w-node-_5b8c5e96-cb4f-c30b-1e34-97c51d7879c5-a62428f5" class="wrap-slides-i"><img src="5.png" loading="lazy" alt="" class="i-slide"></div>
                      </div>
                      
                   </div>
@@ -491,7 +491,14 @@
            time: 2000
          });
       </script>
-      
+      <script>
+         function myFunction() {
+           const element = document.getElementById("myDIV");
+           let x = element.scrollLeft;
+           let y = element.scrollTop;
+           document.getElementById ("demo").innerHTML = "Horizontally: " + x.toFixed() + "<br>Vertically: " + y.toFixed();
+         }
+         </script>
       <script>
          history.scrollRestoration = "manual"
       </script>
