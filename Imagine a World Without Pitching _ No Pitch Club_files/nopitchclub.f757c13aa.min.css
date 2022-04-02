@@ -97,14 +97,7 @@ img {
 	display: inline-block
 }
 
-form {
-	width: 60%;
-	display: flex;
-	flex-direction: row;
-	border: 1px solid grey;
-	padding: 2px;
-	border-radius: 50px; /*you can remove this to avoid rounded corners on the form*/
-  }
+
   
 input {
 	flex-grow: 2;
@@ -2428,7 +2421,7 @@ a:hover {
 }
 
 .section.lifepitch {
-	height: 200vh;
+	height: 120vh;
 	padding-top: 10em;
 	padding-bottom: 10em;
 	-webkit-box-align: start;
@@ -2710,6 +2703,7 @@ a:hover {
 .debitcard{
 	width: 90%;
 	padding-left: 8%;
+	padding-top: 10%;
 }
 
 .wrap-hero-down-arrow {
@@ -2864,7 +2858,7 @@ a:hover {
 }
 
 .special1.resize {
-	font-size: 30em
+	font-size: 250px
 }
 
 .special2 {
