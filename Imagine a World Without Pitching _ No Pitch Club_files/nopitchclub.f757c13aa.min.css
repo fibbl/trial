@@ -847,6 +847,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width:991px) {
+	.special1.resize {
+		font-size: 100px;
+	}
 	.w-container {
 		max-width: 728px
 	}
@@ -900,6 +903,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width:767px) {
+	.special1.resize {
+		font-size: 100px;
+	}
 	.w-hidden-main,
 	.w-hidden-medium {
 		display: inherit!important
@@ -956,6 +962,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width:479px) {
+	.special1.resize {
+		font-size: 100px;
+	}
 	.section.hero {
 		min-height: 100em;
 		padding-bottom: 50%;
@@ -2858,7 +2867,7 @@ a:hover {
 }
 
 .special1.resize {
-	font-size: 250px
+	/* font-size: 250px */
 }
 
 .special2 {
@@ -4348,7 +4357,7 @@ a:hover {
 		padding-left: 3em
 	}
 	.section.lifepitch {
-		height: 120vh;
+		height: 80vh;
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
