@@ -964,6 +964,9 @@ textarea.w-select {
 @media screen and (max-width:479px) {
 	.special1.resize {
 		font-size: 60px;
+		background: linear-gradient(90deg, #AD1DEB 0%, #6E89FC 100%);
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
 	}
 	.section.hero {
 		min-height: 100em;
